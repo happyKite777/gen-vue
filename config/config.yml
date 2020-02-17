@@ -1,0 +1,12 @@
+NAME: HelloRouter
+
+COLUMNS:
+  [{label: "姓名", prop: "name"}, {label: "年纪", prop: "age"}, {label: "身高", prop: "height"}]
+
+PARAM:
+  [name, age, start_time, end_time, ota]
+
+
+FILTER:
+  [{type: "input", prop: "name"}, {type: "input", prop: "age"},
+   {type: "date", prop: "start_time"}, {type: "date", prop: "end_time"}, {type: "select", prop: "ota"}]
